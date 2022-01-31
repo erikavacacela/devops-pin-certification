@@ -110,3 +110,6 @@ Para poder conectarnos al cluster tenemos que configurar:
 ```
 aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
 ```
+
+## Configuración Azure DevOps
+Información [aquí](/azdo/README.md)
