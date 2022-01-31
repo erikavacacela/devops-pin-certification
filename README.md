@@ -76,12 +76,12 @@ terraform destroy
 
 * Clic en el Link del instance ID , esto abre las configuraciones.
 * Connect
-![ScreenShot](/images/1-ec2-connect.png)
+![ScreenShot](/assets/images/1-ec2-connect.png)
 
 * Seguir las instrucciones para asignar los permisos correspondientes al archivo .PEM y conectarse a la instancia EC2.
 
 Nota: Es posible que si están utilizando WSL en Windows (Ubuntu desde Windows), incluso luego de cambiar los permisos arroje un error:
-![ScreenShot](/images/2-ec2-connect-issue.png)
+![ScreenShot](/assets/images/2-ec2-connect-issue.png)
 Se soluciona corriendo la conexión SSH con `sudo`
 
 ## Crea cluster con Terraform
