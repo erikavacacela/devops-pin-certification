@@ -32,3 +32,6 @@ setup-cred.sh
 *.lock.*
 
 .gitconfig
+secret.readme
+
+.DS_Store
