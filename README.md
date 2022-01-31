@@ -13,7 +13,7 @@ para establecer las credenciales de acceso.
 
 ### Crear y configurar máquina EC2
 
-**Carácteristicas**
+**Características**
 
 * Region: us-west-1
 * Sistema Operativo : Ubuntu Server 20.04
@@ -34,6 +34,7 @@ Descargar el archivo .pem generado, este será usado posteriormente para la cone
 
 
 **2. Crear Role para EC2**
+
 Vamos a realizar una serie de configuraciones para permitir a la instancia de EC2 realizar las diferentes tareas que necesitaremos.
 
 * En la barra de busqueda escribir IAM y Abrir la consola.
@@ -66,8 +67,9 @@ Verificar en la consola AWS que la instancia EC2 ha sido creada.
 Se mostra la cantidad de recursos que tiene creado: instances, security groups, key pairs.
 
 **Nota** Para eliminar los recursos creados, usar el comando:
-
-```terraform destroy    ```
+```
+terraform destroy
+```
 
 
 ### Conectarse a una máquina EC2
@@ -76,7 +78,8 @@ Se mostra la cantidad de recursos que tiene creado: instances, security groups, 
 * Connect
 ![ScreenShot](/images/1-ec2-connect.png)
 
-* Seguir las instrucciones para asignar los permisos correspondientes al archivo .PEM y conectarse a la instancia EC2
+* Seguir las instrucciones para asignar los permisos correspondientes al archivo .PEM y conectarse a la instancia EC2.
+
 Nota: Es posible que si están utilizando WSL en Windows (Ubuntu desde Windows), incluso luego de cambiar los permisos arroje un error:
 ![ScreenShot](/images/2-ec2-connect-issue.png)
 Se soluciona corriendo la conexión SSH con `sudo`
