@@ -11,6 +11,9 @@ Es necesario crear una cuenta gratuita en https://dev.azure.com/ y crear un proy
 
 3. Una vez creado instanciar un repositorio con un readme por defecto.
 
+4. Crear un archivo con el nombre nginx-deployment.yaml y pegamos el código con este aquí [nginx-deployment.yaml](/azdo/nginx-deployment.yaml)
+
+
 
 ## Agregar el cluster de Kubernetes a Azure Devops
 
@@ -77,7 +80,7 @@ Seguimos el navegador con las selecciones que se detallan abajo.
 ![ScreenShot](/assets/images/az-3-pipeline-configure.png)
 
 
-Reemplazamos el código con este aquí [azure-pipelines.yaml](/azdo/azure-pipelines.yml) repo (cambiar el nombre de la conexión por el que hayan seleccionado)
+Reemplazamos el código con este aquí [azure-pipelines.yaml](/azdo/azure-pipelines.yml) (cambiar el nombre de la conexión por el que hayan seleccionado)
 
 
 ![ScreenShot](/assets/images/az-4-pipeline-review.png)
